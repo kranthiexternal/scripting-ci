@@ -1,0 +1,23 @@
+stages {
+        stage('build') {
+            steps {
+                echo 'build1success'
+            }
+        }
+        stage('deploy') {
+            steps {
+                echo 'deploy1 success'
+            }
+        }
+        stage('test') {
+            steps {
+                echo 'test1 success'
+            }
+        }
+        stage('release') {
+            steps {
+                echo 'release1 success'
+            }
+        }
+    }
+}
